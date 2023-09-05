@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'TmonMonsori';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cafe24Ohsquare';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+h1 {
+    color:#d4c3f3;
+    background-color:#30053d;
+    text-align:center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-style: double;
+    border-width: 7px;
+    border-radius: 5px;
+    font-size: 30px;
+    box-shadow: 7px 7px 15px #0f002c88;
+    font-family: 'TmonMonsori';
+}
+h2{
+    color: #30053d;
+    background-color: #d4c3f3;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    border-style: solid;
+    border-radius: 7px;
+    font-family: 'Cafe24Ohsquare';
+}
+h2::first-letter{
+    font-size: 30px;
+    color: #d4c3f3;
+    text-align: center;
+    background-color: #30053d;
+    border-radius: 80px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+h2:hover{
+    background-color: #ff20209a;
+}
+h2:hover::first-letter{
+    background-color: #ff0707;
+}
+p{
+    text-indent: 15px;
+    line-height: 200%;
+    font-family: 'NanumSquareNeo-Variable';
+
+
+}
